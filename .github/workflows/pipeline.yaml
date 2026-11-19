@@ -4,9 +4,9 @@ on:
   push:
     branch: [ main ]
 
-  jobs:
-    build:
-      runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout-code
